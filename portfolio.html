@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="portfolio.css" rel="stylesheet" type="text/css"> 
+    <script src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js'></script>
+    <script src = "portfolio.js"></script>
+    <style>
+        #myPDF{
+            width: 50%;
+            height: 200px;
+        }
+        p.intro{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class = "BasicProfile"> 
+ <h2 style ="text-align:center">Profile</h2>
+ <img src = "https://join.hkust.edu.hk/sites/default/files/2020-06/hkust.jpg" width = "200" height = "200">
+<p class= "intro">Hi! My name is Felix Jeong. And I am currently a student in HKUST!<br>
+My major is Math-CS and I am very passionate about financial analysis for predicting return value of stocks.</p>
+<b>School Website: </b> <a href ="https://hkust.edu.hk">University Homepage</a><br>
+<b>Resume: </b><a href="/Users/wjdwlsghd13/Desktop/Documents_For_Job/CVs and portfolio/JINHONG_JEONG.resume.pdf" download>Download File</a><br>
+<iframe id = "myPDF" src = "/Users/wjdwlsghd13/Desktop/Documents_For_Job/CVs and portfolio/JINHONG_JEONG.resume.pdf" frameborder="0"></iframe><br>
+<b>Favourite quote: </b><q>Carpe Diem</q>
+</body>
+</html>
