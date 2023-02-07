@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="portfolio.css" rel="stylesheet" type="text/css"> 
+    <!--<link href="portfolio.css" rel="stylesheet" type="text/css">
     <script src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js'></script>
-    <script src = "portfolio.js"></script>
+    <script src = "portfolio.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         #myPDF{
             width: 50%;
@@ -16,17 +19,30 @@
         p.intro{
             font-style: italic;
         }
+        a.downloadable{
+            color:blue;
+        }
     </style>
 </head>
 <body>
-    <div class = "BasicProfile"> 
- <h2 style ="text-align:center">Profile</h2>
- <img src = "https://join.hkust.edu.hk/sites/default/files/2020-06/hkust.jpg" width = "200" height = "200">
-<p class= "intro">Hi! My name is Felix Jeong. And I am currently a student in HKUST!<br>
-My major is Math-CS and I am very passionate about financial analysis for predicting return value of stocks.</p>
+<!-- <h1 style ="text-align:center">Profile</h1>-->
+<div class="jumbotron text-left"> <h1><b>Jeong Jin Hong</b></h1>
+    <p class= "intro">Hi! My name is Felix Jeong. And I am currently a student in HKUST!<br>
+        My major is Math-CS and I am very passionate about analyzing in variety of areas and quantifying data to see correlation between parameters.<br>
+        Especially, financial analysis for predicting return value of stocks and change in exchange currency rate is my interested area which  I am currently conducting thorough research.<br>
+        Furthermore, my passionate area is to quantify and visualize the data to enhance eye-catching effect for identifying insights from data.</p></div>
+ <!--<img src = "https://join.hkust.edu.hk/sites/default/files/2020-06/hkust.jpg" width = "200" height = "200"><br>-->
 <b>School Website: </b> <a href ="https://hkust.edu.hk">University Homepage</a><br>
-<b>Resume: </b><a href="/Users/wjdwlsghd13/Desktop/Documents_For_Job/CVs and portfolio/JINHONG_JEONG.resume.pdf" download>Download File</a><br>
-<iframe id = "myPDF" src = "/Users/wjdwlsghd13/Desktop/Documents_For_Job/CVs and portfolio/JINHONG_JEONG.resume.pdf" frameborder="0"></iframe><br>
-<b>Favourite quote: </b><q>Carpe Diem</q>
+<b>Resume: </b><a href="/Users/wjdwlsghd13/Desktop/Documents_For_Job/CVs and portfolio/jin_hong_jeong.resume.pdf"class = "downloadable" download>Download file</a><br>
+<iframe id = "myPDF" src = "/Users/wjdwlsghd13/Desktop/Documents_For_Job/CVs and portfolio/jin_hong_jeong.resume.pdf" frameborder="0"></iframe><br>
+<b>Favorite quote: </b><q>Carpe Diem</q><br>
+<b>Github: </b> <a href = "https://github.com/jjeongab">Github's website</a>
+<p style = "font-weight:bold">Address:</p>
+<blockquote cite="https://shrl-jockeyclubhall.hkust.edu.hk">
+    The Hong Kong University of Science and Technology Jockey Club Hall,<br>
+    3 Tong Yin Lane,<br>
+    Tseung Kwan O, New Territories,<br>
+    Hong Kong
+</blockquote>
 </body>
 </html>
